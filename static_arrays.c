@@ -11,7 +11,7 @@ int main () {
         scanf("%d", &arr[i]);
     }
 
-    printf("The marks of the students are\n");
+    printf("The marks of the students are:\n");
     for (i=0; i<n; i++) {
         printf("%d\n", arr[i]);
     }
