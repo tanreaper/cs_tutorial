@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main () {
 
-    int n, i;
+    int n, i, j; // Adding another variable
     int arr[10];
     printf("Please enter how many students are there\n");
     scanf("%d", &n);
