@@ -3,7 +3,7 @@
 
 int main() {
 
-    int arr[10], i, array_len;
+    int arr[10], i, array_len, j;
     int min_index;
     int temp;
     printf("Enter the length of arrays");
@@ -14,16 +14,21 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    for (i=0; i<array_len; i++) {
+    for (i=0; i<array_len - 1; i++) {
         min_index = i;
         for (j= i+1; j<array_len; j++) {
             if (arr[min_index] > arr[j]) {
                 min_index = j;
+                
             }
+            
         }
-        temp = arr[i];
-        arr[i] = arr[min_index];
-        arr[min_index] = arr[i];
+            if (min_index != i) {
+                temp = arr[i];
+                arr[i] = arr[min_index];
+                arr[min_index] = temp;
+            }
+       
     }
 
     printf(" The array after sorting in ascending order:\n");
