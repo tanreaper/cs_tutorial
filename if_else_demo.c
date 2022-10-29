@@ -7,10 +7,11 @@
 // Conditional Statement: if and else
 int main()
 {
-    int marks;
+    int marks; 
     printf("Please enter your marks \n");
     scanf("%d", &marks);
     printf("%d\n", marks);
+    printf("Address of marks is %x\n",  &marks);
     if (marks >= 90)
     {
         printf("The student has A grade\n");
