@@ -16,12 +16,13 @@ int main()
         printf("Please Enter two numbers: \n");
         scanf("%d %d", &num1, &num2); // num1 = 12 , num2 = 14
         // printf("%d %d",  num2); // -> 12, 14
-        fflush(stdin)
+        while ((getchar()) != '\n');
+        // fflush(stdin);
         printf("Press 1 for Addition: \n");
         printf("Press 2 for subtraction: \n");
         printf("Press escape to exit");
         scanf("%c", &ch); // -- it took enter as an input
-        printf("%c", ch);
+        // printf("%c", ch);
         switch(ch)
         {   
             printf("Enters Switch case!");

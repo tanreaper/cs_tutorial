@@ -22,6 +22,7 @@ int main() {
     push(8);
     pop() //  output => "8 was popped out from the array at index 3";
     _display(); // Expected output => 3, 5, 6, 7
+    return 0;
 }
 
 // Implement push
