@@ -5,7 +5,7 @@ int main(int argc, char** argv) {
     string str1 = "I'm a string";
     cout << "1st: " << str1[0] << endl;
     cout << "Last: " << str1.back() << endl;
-    cout << "Length: 5"5 << str1.length() << endl;
+    cout << "Length: 5" << str1.length() << endl;
     string str2 = str1;
     string str3(str2, 4);
     string str4 = str1 + " and your not";

@@ -21,7 +21,7 @@ class Student {
             cout << "Default Constructor got called\n";
         }
         
-        Student(string, int); 
+        Student(string, int); // parameterised
         Student(const Student &);
 
           // Getters and Setters.
@@ -29,7 +29,6 @@ class Student {
             this->name = name;
             this->roll_no = roll_no;
         }
-
         string getName() {
             return name;
         }
@@ -41,7 +40,7 @@ class Student {
         void display();
 };
 
-Student::Student(string name, int roll_no) {
+Student::Student(string name, int roll_no) { // parameterised constructor
     this->name = name;
     this->roll_no = roll_no;
     cout << "Parameterized Constructor got called" << endl;
