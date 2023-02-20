@@ -23,7 +23,7 @@ void MyClass::display() {
 }
 
 class Student {
-  private:
+  public:
     string name;
     int roll_no;
     string email_id;
@@ -55,15 +55,14 @@ int main() {
   // myObj.myMethod();  // Call the method
   // myObj2.myMethod();
 
-  
   myObj.setExample(5);
   myObj2.setExample(10);
   // myObj.display(); // output : 5
   // myObj2.display(); // output : 10
 
   // Student student1; // Default Constructor
-  Student student("Aneesh", 1, "Aneesh@gmail.com", "Football");
-  cout << student.getName() << endl;
+  // Student student("Aneesh", 1, "Aneesh@gmail.com", "Football");
+  // cout << student.getName() << endl;
   
 
   return 0;
