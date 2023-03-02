@@ -39,7 +39,6 @@ class Student {
 
         void display();
 };
-
 Student::Student(string name, int roll_no) { // parameterised constructor
     this->name = name;
     this->roll_no = roll_no;
@@ -54,3 +53,4 @@ Student::Student(const Student &student) {
     roll_no = student.roll_no;
     cout << "Copy constructor got called" << endl;
 }
+
