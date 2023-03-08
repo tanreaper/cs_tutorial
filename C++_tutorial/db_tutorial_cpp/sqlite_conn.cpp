@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     int rc;
     const char *sql;
 
-    rc = sqlite3_open("test.db", &db);
+    rc = sqlite3_open("test.db", &db); // successfull =>0, unsuccessfull => 1
     if (rc)
     {
         fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));

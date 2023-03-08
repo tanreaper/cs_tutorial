@@ -14,4 +14,7 @@ int main() {
             cout << tp << "\n";
         }
     }
+
+    // Adding the Student name to sqlite database.
+    // How to connect to mysql database.
 }

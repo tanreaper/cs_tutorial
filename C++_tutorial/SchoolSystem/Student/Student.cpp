@@ -18,7 +18,7 @@ class Student {
         
         Student() { // Default constructor
             this->name = " Aneesh ";
-            cout << "Default Constructor got called\n";
+            // cout << "Default Constructor got called\n";
         }
         
         Student(string, int); // parameterised
@@ -45,7 +45,8 @@ Student::Student(string name, int roll_no) { // parameterised constructor
     cout << "Parameterized Constructor got called" << endl;
 }
 void Student::display() {
-    cout << this->name << endl;
+    cout << "NAME: " << this->name << " ";
+    cout << "ROLL_NO: " << this->roll_no << endl;
 }
 
 Student::Student(const Student &student) {
