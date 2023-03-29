@@ -4,7 +4,6 @@
 
 static int callback(void *NotUsed, int argc, char **argv, char **azColName);
 
-
 int main(int argc, char *argv[])
 {
     sqlite3 *db;

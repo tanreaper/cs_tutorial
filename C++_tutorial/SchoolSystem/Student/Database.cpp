@@ -7,7 +7,7 @@ using namespace std;
 class Database
 {
 private:
-    sqlite3 *db;
+    sqlite3 *db; 
     const char *filename;
     char *zErrMsg = 0;
     int rc;
